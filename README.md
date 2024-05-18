@@ -30,6 +30,11 @@ docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corent
 - [Tipi](https://www.runtipi.io/docs/apps-available)
 - [Unraid](https://unraid.net/community/apps?q=it-tools)
 
+## deploy to github pages
+
+1. In github ”Actions“ pages，enable the workflow "Deploy to Github Pages", with name "deploy-github-pages.yml"
+2. In "Settings" -> Pages, choose "Github Actions" for "Build and deployment" Source 
+
 ## Contribute
 
 ### Recommended IDE Setup
